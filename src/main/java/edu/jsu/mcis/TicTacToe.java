@@ -29,18 +29,18 @@ public class TicTacToe {
         
         /* MAIN LOOP */
 
-        while (!model.isGameover()) {
+        /* while (!model.isGameover()) {
             
             view.viewModel();
-            controller.controlModel();
+            controller.controlModel();     //remove this section of code for part 1B
             
-        }
+        } */
         
         /* Game is over; show the final board and the winner */
 
-        view.viewModel();
+        /* view.viewModel();
 
-        view.showResult(model.getResult().toString());
+        view.showResult(model.getResult().toString()); */
 
     }
 
