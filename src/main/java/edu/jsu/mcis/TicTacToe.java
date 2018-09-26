@@ -32,7 +32,7 @@ public class TicTacToe {
         while (!model.isGameover()) {
             
             view.viewModel();
-            controller.controlModel();
+            controller.controlModel();     //remove this section of code for part 1B
             
         }
         
